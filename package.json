@@ -9,7 +9,7 @@
   "reveal": true,
   "scripts": {
     "docs": "update-markdown-jsdoc --no-markdown-toc",
-    "test": "ava -v && standard"
+    "test": "standard"
   },
   "engines": {
     "node": ">=8"
