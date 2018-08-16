@@ -1,0 +1,33 @@
+{
+  "name": "wahlburger",
+  "version": "0.0.0",
+  "description": "Get dem burgers.",
+  "main": "index.js",
+  "repository": "transitive-bullshit/wahlburger",
+  "author": "Travis Fischer <travis@automagical.ai>",
+  "license": "MIT",
+  "reveal": true,
+  "scripts": {
+    "docs": "update-markdown-jsdoc --no-markdown-toc",
+    "test": "ava -v && standard"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "wahlburger",
+    "wahlburger.com",
+    "burgers n shit"
+  ],
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "standard": "^11.0.0",
+    "update-markdown-jsdoc": "^1.0.6",
+    "validator": "^10.4.0"
+  },
+  "dependencies": {
+    "ow": "^0.6.0",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
