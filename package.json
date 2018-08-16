@@ -26,8 +26,9 @@
     "validator": "^10.4.0"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "ow": "^0.6.0",
-    "request": "^2.87.0",
+    "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   }
 }
